@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:padding="10dp"
+    tools:context=".InputDataActivity">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:text="Identitas"/>
+
+        <TextView
+            android:id="@+id/tv_add"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#008BFA"
+            android:text="+ Data"/>
+
+    </LinearLayout>
+
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:background="#008080"
+            android:textColor="#FFF"
+            android:padding="18dip"
+            android:text="Nama"/>
+
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:padding="18dip"
+            android:background="#184757"
+            android:textColor="#FFF"
+            android:text="-"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="4dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:background="#008080"
+            android:textColor="#FFF"
+            android:padding="18dip"
+            android:text="Umur"/>
+
+        <TextView
+            android:id="@+id/tv_umur"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:padding="18dip"
+            android:background="#184757"
+            android:textColor="#FFF"
+            android:text="-"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="4dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:background="#008080"
+            android:textColor="#FFF"
+            android:padding="18dip"
+            android:text="Alamat"/>
+
+        <TextView
+            android:id="@+id/tv_alamat"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:padding="18dip"
+            android:background="#184757"
+            android:textColor="#FFF"
+            android:text="-"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="4dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:background="#008080"
+            android:textColor="#FFF"
+            android:padding="18dip"
+            android:text="Gender"/>
+
+        <TextView
+            android:id="@+id/tv_gender"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:padding="18dip"
+            android:background="#184757"
+            android:textColor="#FFF"
+            android:text="-"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="4dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:background="#008080"
+            android:textColor="#FFF"
+            android:padding="18dip"
+            android:text="Pendidikan"/>
+
+        <TextView
+            android:id="@+id/tv_pend"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:padding="18dip"
+            android:background="#184757"
+            android:textColor="#FFF"
+            android:text="-"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="4dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:background="#008080"
+            android:textColor="#FFF"
+            android:padding="18dip"
+            android:text="Telepon"/>
+
+        <TextView
+            android:id="@+id/tv_telp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:padding="18dip"
+            android:background="#184757"
+            android:textColor="#FFF"
+            android:text="-"/>
+
+    </TableRow>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/btn_telpon"/>
+
+</TableLayout>
